@@ -52,6 +52,12 @@ limitations under the License.
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
                     onclick="deleteToken()">Delete Token</button>
           </div>
+          <div id="token_display_div" style="display: none;">
+            <h4>All tokens</h4>
+            <p id="tokens" style="word-break: break-all;"></p>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
+                    onclick="getTokensFromServer()">Get All Tokens</button>
+          </div>
           <!-- div to display the UI to allow the request for permission to
                notify the user. This is shown if the app has not yet been
                granted permission to notify. -->
