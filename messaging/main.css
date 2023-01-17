@@ -22,7 +22,7 @@ a {
 }
 li a {
   text-decoration: underline;
-  color: #0288d1;
+  color: #fff;
 }
 .mdl-grid {
   max-width: 1024px;
@@ -47,8 +47,13 @@ code {
   word-break: break-all;
 }
 h3 {
-  background: url('/firebase-logo.png') no-repeat;
-  background-size: 40px;
-  padding-left: 50px;
-  color: white;
+  background: url('/resilia-logo.jpg') no-repeat;
+  background-size: 100px;
+  padding-left: 200px;
+  background-position: left center;
+  color: black;
+}
+
+header.mdl-layout__header {
+  background-color: #fff !important;
 }
